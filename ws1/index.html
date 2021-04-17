@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Travel Website</title>
+</head>
+<body>
+    <section>
+        <div class="bannerVideo" id="slideShow">
+            <video src="/assetes/pexels-timo-volz-5544073.mp4" autoplay muted loop class="active"></video>
+            <video src="/assetes/video.mp4" autoplay muted loop ></video>
+            <video src="/assetes/production ID 4174112.mp4" autoplay muted loop ></video>
+            <video src="/assetes/production ID 4010941.mp4" autoplay muted loop ></video>
+        </div>
+        <div class="container">
+            <header id="navbar">
+                <a href="#" class="logo">World</a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span class="menuIcon" onclick="toggleMenu();"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </header>
+            <div class="content">
+                <div class="bannerText" id="slideShowText">
+                    <div class="active">
+                        <h2>Tokyo</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab itaque corrupti consequuntur 
+                            praesentium dolorum eos fugit quia. Fugiat molestiae ducimus recusandae reprehenderit delectus 
+                            accusantium eaque odit sit quasi cum.
+                        </p>            
+                    </div>
+                    <div>
+                        <h2>Paris</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab itaque corrupti consequuntur 
+                            praesentium dolorum eos fugit quia. Fugiat molestiae ducimus recusandae reprehenderit delectus 
+                            accusantium eaque odit sit quasi cum.
+                        </p>            
+                    </div>
+                    <div>
+                        <h2>Egypt</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab itaque corrupti consequuntur 
+                            praesentium dolorum eos fugit quia. Fugiat molestiae ducimus recusandae reprehenderit delectus 
+                            accusantium eaque odit sit quasi cum.
+                        </p>            
+                    </div>
+                    <div>
+                        <h2>Maldives</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ab itaque corrupti consequuntur 
+                            praesentium dolorum eos fugit quia. Fugiat molestiae ducimus recusandae reprehenderit delectus 
+                            accusantium eaque odit sit quasi cum.
+                        </p>            
+                    </div>
+                </div>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>    
+            </ul>
+            <ul class="controls">
+                <li onclick="nextSlide();nextSlideText();"><a href="#"><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+                <li onclick="prevSlide();prevSlideText()"><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <script src="/code.js" defer></script>
+</body>
+</html>
