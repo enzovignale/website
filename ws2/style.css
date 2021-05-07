@@ -53,14 +53,6 @@ ul{
 .header .logo a{
     text-decoration: none;
 }
-/* .header .logo a,
-.header .logo a img{
-    display: block;
-} */
-/* .header .logo img{
-    width: 140px;
-    margin-top: -38px;
-} */
 .header .menu ul{
     display: flex;
 }
@@ -106,6 +98,7 @@ ul{
     right: 0;
     background: rgba(42, 44, 46, .27);
     box-shadow: 0 8px 32px 0 rgba(11, 11, 11, .37);
+    /* filter: blur(4px); //TODO: Need to fix blur for FF */
     backdrop-filter: blur(34px);
     border: 1px solid rgba(255, 255, 255, .18);
     width: 53%;
